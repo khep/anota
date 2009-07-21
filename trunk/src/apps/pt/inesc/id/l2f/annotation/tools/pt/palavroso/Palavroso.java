@@ -21,7 +21,7 @@ public class Palavroso extends Classifier {
 	// palavroso command
 	private static final String[] COMMAND = {"/usr/bin/morfolog", "-spu", "-D", "/usr/share/split/palavroso/dict/palav.lex"};
 	// palavroso environment variables
-	private static final String[][] ENVIRONMENT = {{"PALAVROSO", "/usr/share/split/palavroso/services/lemmatization/"}};
+	private static final String[][] ENVIRONMENT = {{"PALAVROSO", "palavroso/services/lemmatization/"}};
 	// palavroso charset
 	private static final String CHARSET = "ISO-8859-1";
 
