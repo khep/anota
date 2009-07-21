@@ -28,7 +28,7 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
  */
 public class ChinesePOSTagger extends Classifier {
 	// chinese model
-	private static final String DICTIONARY = "/afs/l2f/home/tmcl/work/tools/en/stanford-tagger/stanford-chinese-tagger-2008-07-07/chinese.tagger";
+	private static final String DICTIONARY = "en/stanford-tagger/stanford-chinese-tagger-2008-07-07/chinese.tagger";
 	
 	static {
 		try {

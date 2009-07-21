@@ -58,7 +58,7 @@ public class JMARv extends Classifier {
 		super(new JavaExecutionMode());
 
 		try {
-			_disambiguator = new Disambiguator("/usr/share/split/jmarv/dict/");
+			_disambiguator = new Disambiguator("jmarv/dict/");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

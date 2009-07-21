@@ -28,7 +28,7 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
  */
 public class StanfordEnglishPOSTagger extends Classifier {
 	// english dictionary
-	private static final String DICTIONARY = "/usr/share/split/stanford/tagger/models/en/bidirectional-wsj-0-18.tagger";  // "C:\\Users\\Tiago\\Desktop\\bidirectional\\train-wsj-0-18.holder";
+	private static final String DICTIONARY = "tagger/models/en/bidirectional-wsj-0-18.tagger";
 	
 	static {
 		try {
